@@ -16,6 +16,7 @@ export default function Routes(){
         <Stack.Screen
         name='Signin'
         component={Signin}
+        options={{headerShown:false}}
         />
 
         
